@@ -1,0 +1,82 @@
+.hero {
+  background: url("https://www.k12technoschools.com/images/home-banner.jpg");
+  width: auto;
+  height: 36.84vw;
+  background-size: contain;
+}
+.headingMP {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 800;
+}
+.orange-bg-icon {
+  background: #f09e1f;
+  padding-top: 10px;
+  width: 12rem;
+  height: 14rem;
+  align-items: center;
+  margin: 20px 60px;
+}
+.blueImg {
+  width: 10rem;
+  height: 8rem;
+  background: white;
+  border-radius: 10%;
+}
+.blueSubH3 {
+  color: #69bae4;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.orangeBgBtn {
+  background: #f09e1f;
+  padding: 1% 1.5%;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: auto 1%;
+  font-weight: 600;
+}
+.grid-style {
+  place-content: center !important;
+  display: grid !important;
+  place-items: center !important;
+}
+@media screen and (min-width: 1119px) {
+  .stateImg {
+    width: 13rem;
+    height: 13rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .stateImg {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+.stateImg {
+  vertical-align: middle;
+}
+.stateH3 {
+  font-size: 1.3rem;
+  color: #f09e1f;
+  font-weight: 900;
+}
+
+element.style {
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.atb-btn {
+  color: white;
+  background: #028cca;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}

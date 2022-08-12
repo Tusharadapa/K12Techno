@@ -1,0 +1,28 @@
+.aboutPara {
+  font-size: 1.3rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+@media screen and (min-width: 1299px) {
+  .about-para {
+    font-size: 1.6rem;
+    padding-top: 30px;
+  }
+}
+.investorLogo {
+  width: 15rem;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.k12Btn {
+  color: white;
+  background: #028cca;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
